@@ -1,0 +1,28 @@
+.tabs a{
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+  padding:6px 12px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #06e;
+}
+.tabs .active{
+  color:#fff;
+  background: #06a;        
+}
+#profileTabList{
+  min-width: 270px;
+  padding: 12px 30px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
+  background:#efefef;
+  background-image: -o-linear-gradient(top,#fff,#efefef);
+  background: -moz-linear-gradient(center top , #fff, #efefef) repeat scroll 0 0 transparent;
+  background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#efefef));
+  filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffff',EndColorStr='#efefef');
+}
+.tab_content{
+  display:none;
+  /*padding: 22px 30px;*/
+}

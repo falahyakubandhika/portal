@@ -1,0 +1,4 @@
+[29-Apr-2020 10:05:00 UTC] PHP Fatal error:  Call to undefined function mb_internal_encoding() in /home/k0927434/public_html/login/filemanager/config/config.php on line 5
+[29-Apr-2020 10:06:42 UTC] PHP Fatal error:  Call to undefined function mb_internal_encoding() in /home/k0927434/public_html/login/filemanager/config/config.php on line 5
+[30-Apr-2020 16:41:15 UTC] PHP Fatal error:  Call to undefined function mb_internal_encoding() in /home/k0927434/public_html/login/filemanager/config/config.php on line 5
+[30-Apr-2020 16:41:50 UTC] PHP Fatal error:  Call to undefined function mb_internal_encoding() in /home/k0927434/public_html/login/filemanager/config/config.php on line 5

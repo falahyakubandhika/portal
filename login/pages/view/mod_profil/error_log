@@ -1,0 +1,2 @@
+[16-Feb-2020 14:00:09 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/k0927434/public_html/login/config/koneksi.php on line 8
+[05-Jul-2020 16:57:40 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/k0927434/public_html/login/config/koneksi.php on line 8

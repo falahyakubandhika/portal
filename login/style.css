@@ -1,0 +1,246 @@
+@import url(button.css);
+
+body{
+	font-family: Tahoma;
+  text-align: center; 
+  background-color:#FFFFFF;
+  
+  
+}         
+#header {
+	position: relative;
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1024px;
+	border: 5px solid #FFB600;
+	padding-top: 50px;
+	text-align: left;
+	background-color:#FFFFFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#content {
+	margin-left: 190px;
+	padding: 0px 10px 0 0;
+	margin-top:7px;
+	width:820px;
+}
+#content p {
+	font-size: 75%;
+
+	padding-left: 2em;
+
+}
+#content_index {
+	margin-left: 185px;
+	padding: 0px 10px 0 0;
+	margin-top:30px;
+	
+}
+
+
+a:link,a:visited {
+  color:#1d2345;;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+a img {
+	text-decoration:none;
+	border:none;
+}
+h2 {   
+	font: normal 150% Cursive;
+	line-height: 100%;
+	color: #1d2345;
+	background-color: transparent;
+
+}
+table {
+	font-family: cursive;
+	font-size: 8pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 10px 0px;
+	
+}
+th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color:  #969BA5;
+	border-collapse: collapse;
+	background-color:#363535;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color:  #969BA5;
+	border-collapse: collapse;
+}
+td-form{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 0px;
+	border-style: solid;
+	border-color:  #969BA5;
+	border-collapse: collapse;
+}
+input[type="text"],input[type="password"], textarea,select{
+	font-family: Tahoma; 
+	font-size: 8pt;
+	padding: 7px; 
+	border: 1px solid #999; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:#fff;
+}
+#paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+#footer{
+  clear :both;
+	padding: 10px;
+	text-align:center;
+	font-size: 70%;
+	color: #000;
+}
+
+input.error, select.error {
+	border: 1px solid #f95c2c; 
+}
+label.error { color:#f95c2c; 
+	margin-left: 10px; 
+}
+
+
+
+#menu {
+  position: relative;
+  float: left;
+	top: 15px;
+	left: 0;
+	width: 170px;
+	padding-left: 5px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	width: 170px;
+	margin: 0;
+	padding: 0;
+	font-size: 85%;
+	vertical-align: bottom; 
+}
+
+#logout {
+	text-align:center;
+	width:974px;
+	text-align:right;
+	padding-right:50px;
+	
+}
+#logout a{
+	color:#ffffff;
+	font-weight: bold;
+	text-decoration:none;
+	font-size:12px;
+}
+#logout a:hover{
+	color:#001FDC;
+}
+
+.aktifnonaktif a{
+	color:white; 
+	font-weight:bold; 
+	background-color:black; 
+	padding:1px;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.aktifnonaktif-ul{
+
+	padding-right:10px;
+	font-size:14px;
+	margin: 0.5em 0;
+}
+.tombol{
+	padding-left:2px;
+	padding-right:2px;
+	height:16px;
+	text-decoration:none;
+	font-size:14px;
+}
+
+
+.question {
+	position: absolute;
+	display: inline;
+	text-align: center;
+	width: 174px;
+	height: 78px;
+	font-size: 13px;
+	line-height: 1.5em;
+	background: url('images/bubble.png') left top no-repeat;
+	padding: 10px 0 0 0;
+	text-shadow: 0px 1px 0px #fff;
+	margin-left: -7em;
+	margin-top: -6em;
+	opacity: 0;
+}
+
+.yes{
+	margin-top: .5em;
+	margin-right: .5em;
+	cursor: pointer;
+	display: inline-block;
+	width: 63px;
+	height: 21px;
+	color: #434d17;
+	text-shadow: 0px 1px 0px #fff;
+	background: url('images/buttony.png') left top no-repeat;
+}
+.cancel {
+	margin-top: .5em;
+	margin-right: .5em;
+	cursor: pointer;
+	display: inline-block;
+	width: 63px;
+	height: 21px;
+	color: #fff;
+	text-shadow: 0px 1px 0px #000;
+	background: url('images/buttonn.png') left top no-repeat;
+}
+
+.tombol1{ 
+    margin:0 5px 0 10px;
+    background-color:#F90;
+    border:1px solid #ccc;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+}

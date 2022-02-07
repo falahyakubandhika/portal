@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="all" />
+<title>jQuery Vertical Accordion Menu Plugin v 2.6</title>
+<link href="css/dcaccordion.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../jquery-1.7.1.min.js"></script>
+<script type='text/javascript' src='js/jquery.cookie.js'></script>
+<script type='text/javascript' src='js/jquery.hoverIntent.minified.js'></script>
+<script type='text/javascript' src='js/jquery.dcjqaccordion.2.7.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function($){
+					$('#accordion-2').dcAccordion({
+						eventType: 'click',
+						autoClose: false,
+						saveState: true,
+						disableLink: true,
+						speed: 'fast',
+						classActive: 'test',
+						showCount: true
+					});
+});
+</script>
+<link href="css/skins/black.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="black demo-container">
+			<ul class="accordion"  id="accordion-2">
+        		
+			<li><a href="#">SETUP</a>
+				<ul>
+					<li><a href="?module=profil">Profil Perusahaan</a></li>
+					<li><a href="?module=modul">Modul</a></li>
+
+					<li><a href="?module=users_group">User Group</a></li>
+					<li><a href="?module=user">Setup Users</a></li>
+				</ul>
+			</li>
+			<li><a href="#">CONTENT</a>
+				<ul>
+					<li><a href="?module=halamanstatis">Halaman Statis</a></li>
+
+					<li><a href="?module=hubungi">Hubungi Kami</a></li>
+					<li><a href="?module=banner">Banner</a></li>
+					<li><a href="?module=ym">Modul YM</a></li>
+					<li><a href="?module=download">Download Katalog</a></li>
+					<li><a href="?module=kategori-berita">Kategori Content & Artikel</a></li>
+					<li><a href="?module=berita">Berita</a></li>
+
+					<li><a href="?module=artikel">Artikel</a></li>
+					<li><a href="?module=tag">Tag</a></li>
+					<li><a href="?module=album">Album</a></li>
+					<li><a href="?module=galerifoto">Galleri Foto</a></li>
+				</ul>
+			</li>
+			<li><a href="#">E-Commerce</a>
+
+				<ul>
+					<li><a href="?module=kategori">Kategori Produk</a></li>
+					<li><a href="?module=ukuran">Tabel Ukuran</a></li>
+					<li><a href="?module=warna">Tabel Warna</a></li>
+					<li><a href="?module=produk_group">Group Produk</a></li>
+					<li><a href="?module=produk">Produk</a></li>
+
+					<li><a href="?module=ongkoskirim">Ongkos Kirim</a></li>
+					<li><a href="?module=laporan">Laporan</a></li>
+					<li><a href="?module=order">Order</a></li>
+				</ul>
+			</li>
+			<li><a href="#">TEMPLATE</a>
+				<ul>
+
+					<li><a href="?module=templates">Daftar Templates</a></li>
+					<li><a href="?module=plugin">Plugin / Block</a></li>
+				</ul>
+			</li>
+		</ul>			</ul>
+	   </div>
+
+
+
